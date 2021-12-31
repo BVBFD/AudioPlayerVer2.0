@@ -195,3 +195,21 @@ input[type="range"]::-webkit-slider-thumb {
   align-items: center;
   flex: 1 1 4rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .musicBox {
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .musicBox {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .musicBox {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+}
