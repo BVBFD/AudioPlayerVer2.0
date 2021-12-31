@@ -18,7 +18,7 @@ let volumeTrueFalse = true;
 
 let allSong = [
   {
-    name: "Plastic Love.mp3",
+    name: "Plastic Love",
     path: "music/타케우치 마리야 - Plastic Love.mp3",
     img: "img/Takeuchi Mariya.png",
     singer: "Takeuchi Mariya",
@@ -48,7 +48,7 @@ let allSong = [
     singer: "Junko Ohashi",
   },
   {
-    name: "Eat You Up (Disco Version}",
+    name: "Eat You Up",
     path: "music/Yoko Oginome - Eat You Up (Disco Version}.mp3",
     img: "img/Yoko Oginome.png",
     singer: "Yoko Oginome",
