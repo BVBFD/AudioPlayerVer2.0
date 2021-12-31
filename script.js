@@ -20,32 +20,38 @@ let allSong = [
   {
     name: "Plastic Love.mp3",
     path: "music/타케우치 마리야 - Plastic Love.mp3",
-    img: "img/bg.png",
-    singer: "타케우치 마리야",
+    img: "img/Takeuchi Mariya.png",
+    singer: "Takeuchi Mariya",
   },
   {
-    name: "second song",
-    path: "music/타케우치 마리야 - Plastic Love.mp3",
-    img: "img/bg.png",
-    singer: "2",
+    name: "Bring me to the dance night",
+    path: "music/bring me to the dance night - Anri.mp3",
+    img: "img/Anri.png",
+    singer: "Anri",
   },
   {
-    name: "third song",
-    path: "music/song3.mp3",
-    img: "img/img3.jpg",
-    singer: "3",
+    name: "gone with the sadness",
+    path: "music/gone with the sadness - anri.mp3",
+    img: "img/Anri.png",
+    singer: "Anri",
   },
   {
-    name: "fourth song",
-    path: "music/song4.mp3",
-    img: "img/img4.jpg",
-    singer: "4",
+    name: "Last-Summer-Whisper",
+    path: "music/Last-Summer-Whisper Anri.mp3",
+    img: "img/Anri.png",
+    singer: "Anri",
   },
   {
-    name: "fifth song",
-    path: "music/song5.mp3",
-    img: "img/img5.jpg",
-    singer: "5",
+    name: "Sweet Love",
+    path: "music/Sweet Love-Junko Ohashi.mp3",
+    img: "img/Junko Ohashi.png",
+    singer: "Junko Ohashi",
+  },
+  {
+    name: "Eat You Up (Disco Version}",
+    path: "music/Yoko Oginome - Eat You Up (Disco Version}.mp3",
+    img: "img/Yoko Oginome.png",
+    singer: "Yoko Oginome",
   },
 ];
 
@@ -153,8 +159,6 @@ const range_slider = () => {
   let position = 0;
   // update slider position
   if (!isNaN(track.duration)) {
-    console.log(track.currentTime);
-    console.log(track.duration);
     position = track.currentTime * (100 / track.duration);
     durationSlider.value = position;
   }

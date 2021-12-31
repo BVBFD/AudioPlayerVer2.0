@@ -132,11 +132,14 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .musicBox .titleButtonRangeBox .titleSingerBox #musicTitle {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .musicBox .titleButtonRangeBox .titleSingerBox #musicSinger {
-  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 
 .musicBox .titleButtonRangeBox .buttonBox {
